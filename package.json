@@ -4,7 +4,7 @@
   "description": "Disruptor-style queue",
   "main": "index.js",
   "scripts": {
-    "test": "mocha",
+    "test": "./node_modules/.bin/mocha",
     "watch": "coffee -w -c -o lib src"
   },
   "repository": {
@@ -22,5 +22,10 @@
     "url": "https://github.com/hden/disruptor-kit/issues"
   },
   "homepage": "https://github.com/hden/disruptor-kit",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "coffee-script": "git://github.com/jashkenas/coffee-script",
+    "mocha": "^2.0.1"
+  },
   "dependencies": {}
 }
