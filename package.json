@@ -1,0 +1,26 @@
+{
+  "name": "disruptor-kit",
+  "version": "0.0.0",
+  "description": "Disruptor-style queue",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "watch": "coffee -w -c -o lib src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hden/disruptor-kit.git"
+  },
+  "keywords": [
+    "queue",
+    "dispatch",
+    "disruptor"
+  ],
+  "author": "Hao-kang Den <haokang.den@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hden/disruptor-kit/issues"
+  },
+  "homepage": "https://github.com/hden/disruptor-kit",
+  "dependencies": {}
+}
